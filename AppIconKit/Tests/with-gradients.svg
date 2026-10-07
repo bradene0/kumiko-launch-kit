@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff7a00"/><stop offset="1" stop-color="#2050ff"/></linearGradient>
+    <linearGradient id="g2" gradientUnits="userSpaceOnUse" x1="40" y1="300" x2="200" y2="460"><stop offset="0" stop-color="#00c080"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.5"/><stop offset="1" stop-color="#004030"/></linearGradient>
+  </defs>
+  <rect x="20" y="20" width="200" height="140" rx="30" fill="url(#g1)"/>
+  <circle cx="370" cy="100" r="80" fill="#e0306a" fill-opacity="0.7"/>
+  <path d="M40 300 L200 300 L200 460 L40 460 Z M80 340 L160 340 L160 420 L80 420 Z" fill="url(#g2)" fill-rule="evenodd"/>
+  <g transform="translate(300 300) rotate(20) scale(1.2)">
+    <path d="M0 0 C40 -60 120 -60 140 0 S120 100 60 120 A50 30 0 0 1 0 0 Z" fill="#3a3a9a" opacity="0.85"/>
+  </g>
+  <path d="M260 220 Q 330 160 400 220 T 500 220" fill="none" stroke="#111" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="120" cy="230" rx="70" ry="25" style="fill:#7a5;stroke:#234;stroke-width:4"/>
+  <polygon points="430,300 500,420 360,420" fill="#ffcc00"/>
+  <path d="m250 470h40v-30h20v30h40z" fill="#555"/>
+</svg>

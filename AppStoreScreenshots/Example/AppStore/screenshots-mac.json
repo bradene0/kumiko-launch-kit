@@ -1,0 +1,40 @@
+{
+  "sizes": [{ "width": 2880, "height": 1800 }],
+  "style": {
+    "background": ["#F6F3EE", "#E4E9EE"],
+    "textColor": "#1D1D1F",
+    "subtitleColor": "#6E6E73",
+    "headlineSize": 0.052,
+    "subtitleSize": 0.022,
+    "padding": 0.042,
+    "top": 0.08,
+    "windowTop": 0.30,
+    "windowWidth": 0.84,
+    "cornerRadius": 0.016,
+    "shadow": true
+  },
+  "shots": [
+    {
+      "output": "01-calm-notes",
+      "headline": "Notes that stay\nout of your way.",
+      "subtitle": "A calm place for ideas, projects, and the day's pages.",
+      "layers": [{ "capture": "note-light" }]
+    },
+    {
+      "output": "02-notebooks",
+      "headline": "Every notebook,\none quiet window.",
+      "subtitle": "Workshop plans, journals, and garden lists, side by side.",
+      "layers": [{ "capture": "library-light" }]
+    },
+    {
+      "output": "03-light-and-dark",
+      "headline": "Made for your Mac.",
+      "subtitle": "Native macOS design in light and dark.",
+      "style": { "background": ["#2C2C30", "#0E0E10"], "textColor": "#FFFFFF", "subtitleColor": "#A1A1A6" },
+      "layers": [
+        { "capture": "library-light", "width": 0.6, "x": 0.05, "y": 0.27 },
+        { "capture": "note-dark", "width": 0.6, "x": 0.35, "y": 0.37 }
+      ]
+    }
+  ]
+}

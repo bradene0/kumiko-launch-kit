@@ -1,0 +1,10 @@
+Shoji (example): icon build report
+
+Inputs: palette ink, layers (back to front): sun ← sun.svg, frame ← frame.svg
+
+Glyph: covers 24% of the canvas, spans 57% × 57%, median stroke 1.9 px at 32 px
+Layer sun: coverage 8.9%, 0% thinner than 1.2 px at 32 px, median stroke 8.6 px, 0 specks, 0 small holes
+Layer frame: coverage 18.8%, 0% thinner than 1.2 px at 32 px, median stroke 1.9 px, 0 specks, 0 small holes
+Icon Composer render matches the palette background (max deviation 0.03, glass lighting included).
+
+No warnings.

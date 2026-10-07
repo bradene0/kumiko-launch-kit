@@ -1,0 +1,56 @@
+{
+  "about": "Kumiko Solutions house style for app icons. Geometry is in points on Apple's 1024 icon grid; background gradients run top to bottom. See README.md.",
+  "glyph": {
+    "safeInset": 0.125,
+    "minExtent": 0.42,
+    "minStroke32": 1.2,
+    "maxThinFraction": 0.15,
+    "minContrast": 3.0
+  },
+  "legacyMac": {
+    "about": "macOS 11-15 icon grid: 824x824 body with a 100 pt margin, continuous corners, soft shadow. Measured from Apple's own actool fallback icns files on macOS 26.",
+    "margin": 100,
+    "cornerRadius": 185.4,
+    "continuousCorners": true,
+    "shadow": { "enabled": true, "offsetY": 6, "blur": 36, "opacity": 0.2 }
+  },
+  "iconComposer": {
+    "glass": true,
+    "shadowKind": "neutral",
+    "shadowOpacity": 0.5,
+    "translucency": 0.5,
+    "specular": true
+  },
+  "palettes": {
+    "tide": {
+      "about": "Clear daylight blue. Utilities, sync, networking.",
+      "gradient": ["#5EB3FF", "#1D6FE8"],
+      "colors": { "primary": "#FFFFFF", "secondary": "#D3E9FF", "accent": "#FFD25E" }
+    },
+    "sage": {
+      "about": "Calm green. Health, finance, habits, anything 'done'.",
+      "gradient": ["#7FD6AA", "#22936A"],
+      "colors": { "primary": "#FFFFFF", "secondary": "#DDF5E8", "accent": "#165A41" }
+    },
+    "ember": {
+      "about": "Warm orange-red. Creative tools, media, timers.",
+      "gradient": ["#FFB067", "#EE5B3A"],
+      "colors": { "primary": "#FFFFFF", "secondary": "#FFE6CF", "accent": "#7A2412" }
+    },
+    "plum": {
+      "about": "Soft violet. Writing, notes, personal apps.",
+      "gradient": ["#B79AFF", "#6A4AE0"],
+      "colors": { "primary": "#FFFFFF", "secondary": "#ECE4FF", "accent": "#FFC4E6" }
+    },
+    "ink": {
+      "about": "Deep indigo night. Developer and pro tools; strong accent colors pop on it.",
+      "gradient": ["#3D4E80", "#141B35"],
+      "colors": { "primary": "#FFFFFF", "secondary": "#AFC3FF", "accent": "#FFB15C" }
+    },
+    "paper": {
+      "about": "Light neutral, like Apple's document utilities. Use a dark glyph.",
+      "gradient": ["#FFFFFF", "#DEE1E7"],
+      "colors": { "primary": "#2C2C30", "secondary": "#8E8E93", "accent": "#0A84FF" }
+    }
+  }
+}

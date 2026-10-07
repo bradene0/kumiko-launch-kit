@@ -1,0 +1,14 @@
+{
+  "name": "Shoji (example)",
+  "houseStyle": "../house-style.json",
+  "palette": "ink",
+  "layers": [
+    { "name": "sun", "svg": "Glyph/sun.svg", "color": "accent" },
+    { "name": "frame", "svg": "Glyph/frame.svg", "color": "primary" }
+  ],
+  "scale": 1.0,
+  "offset": [0, 0],
+  "output": "Output",
+  "iOS": true,
+  "previewDock": false
+}

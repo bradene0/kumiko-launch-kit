@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+  <style>.a{fill:#c03;} .b{fill:none;stroke:#036;stroke-width:24px;}</style>
+  <defs><clipPath id="c"><circle cx="300" cy="300" r="180"/></clipPath></defs>
+  <g id="Layer1" serif:id="Layer 1">
+    <rect class="a" x="120" y="120" width="360" height="360" clip-path="url(#c)"/>
+    <path class="b" d="M560,200 L900,200 L730,480 Z"/>
+    <g transform="matrix(1.5,0,0,1.5,-200,-100)"><path d="M300,500 C300,450 400,450 400,500 C400,550 300,550 300,500 Z M330,500 C330,480 370,480 370,500 C370,520 330,520 330,500 Z" style="fill:rgb(40,160,90);"/></g>
+    <use xlink:href="#dup" x="0" y="0"/>
+    <circle id="dup" cx="800" cy="800" r="100" fill="currentColor" opacity="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+{
+  "sizes": [{ "width": 1320, "height": 2868 }],
+  "style": {
+    "background": ["#F6F3EE", "#E4E9EE"],
+    "textColor": "#1D1D1F",
+    "subtitleColor": "#6E6E73",
+    "align": "center",
+    "headlineSize": 0.036,
+    "subtitleSize": 0.017,
+    "padding": 0.07,
+    "top": 0.055,
+    "windowTop": 0.215,
+    "windowWidth": 0.80,
+    "cornerRadius": 0.115,
+    "shadow": true
+  },
+  "shots": [
+    {
+      "output": "01-calm-notes",
+      "headline": "Notes that stay\nout of your way.",
+      "subtitle": "A calm place for ideas and the day's pages.",
+      "layers": [{ "capture": "note-light" }]
+    },
+    {
+      "output": "02-notebooks",
+      "headline": "Every notebook\nin one place.",
+      "subtitle": "Workshop plans, journals, and garden lists.",
+      "layers": [{ "capture": "library-light" }]
+    },
+    {
+      "output": "03-dark",
+      "headline": "Beautiful\nafter dark.",
+      "subtitle": "Full dark mode, down to the last tag.",
+      "style": { "background": ["#2C2C30", "#0E0E10"], "textColor": "#FFFFFF", "subtitleColor": "#A1A1A6" },
+      "layers": [{ "capture": "note-dark" }]
+    }
+  ]
+}
